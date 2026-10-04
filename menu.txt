@@ -1,0 +1,7 @@
+
+#!/bin/bash
+
+source_dir=$1
+backup_dir=$2
+cp -r "$source_dir" "$backup_dir"
+echo "Backup completed successfully"
